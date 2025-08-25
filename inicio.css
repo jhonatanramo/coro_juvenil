@@ -1,0 +1,24 @@
+:root {
+    /* Colores base */
+    --redwood: #A84A5A;
+    --orchid-pink: #E0AEBD;
+    --lavender-blush: #EEE2E4;
+    --rose-quartz: #C4A7B6;
+    --quinacridone-magenta: #79384C;
+    --violet-jtc: #532A4B;
+  
+    /* Gradientes */
+    --gradient-top: linear-gradient(0deg, var(--redwood), var(--orchid-pink), var(--lavender-blush), var(--rose-quartz), var(--quinacridone-magenta), var(--violet-jtc));
+    --gradient-right: linear-gradient(90deg, var(--redwood), var(--orchid-pink), var(--lavender-blush), var(--rose-quartz), var(--quinacridone-magenta), var(--violet-jtc));
+    --gradient-bottom: linear-gradient(180deg, var(--redwood), var(--orchid-pink), var(--lavender-blush), var(--rose-quartz), var(--quinacridone-magenta), var(--violet-jtc));
+    --gradient-left: linear-gradient(270deg, var(--redwood), var(--orchid-pink), var(--lavender-blush), var(--rose-quartz), var(--quinacridone-magenta), var(--violet-jtc));
+    --gradient-top-right: linear-gradient(45deg, var(--redwood), var(--orchid-pink), var(--lavender-blush), var(--rose-quartz), var(--quinacridone-magenta), var(--violet-jtc));
+    --gradient-bottom-right: linear-gradient(135deg, var(--redwood), var(--orchid-pink), var(--lavender-blush), var(--rose-quartz), var(--quinacridone-magenta), var(--violet-jtc));
+    --gradient-top-left: linear-gradient(225deg, var(--redwood), var(--orchid-pink), var(--lavender-blush), var(--rose-quartz), var(--quinacridone-magenta), var(--violet-jtc));
+    --gradient-bottom-left: linear-gradient(315deg, var(--redwood), var(--orchid-pink), var(--lavender-blush), var(--rose-quartz), var(--quinacridone-magenta), var(--violet-jtc));
+    --gradient-radial: radial-gradient(var(--redwood), var(--orchid-pink), var(--lavender-blush), var(--rose-quartz), var(--quinacridone-magenta), var(--violet-jtc));
+  }
+  body {
+    background: var(--lavender-blush);
+  }
+  

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Leer archivo TXT</title>
+</head>
+<body>
+  <h2>Contenido del archivo:</h2>
+  <div id="contenido"></div>
+
+  <script>
+    // Lee archivo.txt (debe estar en la misma carpeta que este HTML)
+    fetch("./../himnos.txt")
+      .then(res => res.text()) // lo convierte a texto
+      .then(data => {
+        document.getElementById("contenido").innerText = data;
+      })
+      .catch(error => console.error("Error al leer el archivo:", error));
+  </script>
+</body>
+</html>
