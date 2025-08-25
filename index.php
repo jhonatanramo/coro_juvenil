@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +7,7 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>nueco prouecto</h1>
+  <img src="./imagenes/Captura de pantalla 2025-08-19 194527.png" alt="">
+  <a href="#/ajustes">enlace</a>
 </body>
 </html>
